@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game-container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/back.jpg);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#e45f26;
+    font-size: 50px;
+}
+
+label{
+    font-family: cursive;
+    color: #ece344;
+    font-size: 30px;
+    margin-top: 10px;
+    
+}
+
+#user-choice{
+    width: 500px;
+    height: 35px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(230, 233, 219);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+button{
+    border-radius: 12px;
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border:none;
+}
+
+button:hover{
+    color: grey;
+}
