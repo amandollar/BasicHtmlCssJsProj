@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ef7c8e;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.img {
+  margin-top: 20px;
+}
+
+.image {
+  height: 150px;
+  width: 150px;
+}
+
+.heading {
+  margin-top: 15px;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  letter-spacing: 2px;
+  color: #b6e2d3;
+}
+
+.buttonC {
+  margin-top: 20px;
+}
+
+.button {
+  height: 40px;
+  width: 70px;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  color: #ea0808;
+  margin: 20px;
+}
+
+button:hover {
+  background-color: rgb(105, 224, 105);
+  cursor: pointer;
+  scale: 1.2;
+}
+
+.popup {
+  display: flex;
+  text-align: center;
+  font-size: 30px;
+  color: #b6e2d3;
+  margin-top: 20px;
+  height: 200px;
+}
